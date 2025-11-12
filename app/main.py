@@ -1,5 +1,6 @@
 from __future__ import annotations
 from typing import Any, Dict, List
+
 from app.cafe import Cafe
 from app.errors import NotWearingMaskError, VaccineError
 
