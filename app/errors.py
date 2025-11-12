@@ -24,3 +24,4 @@ class NotWearingMaskError(Exception):
 
     def __init__(self, message: str = "Mask is required") -> None:
         super().__init__(message)
+#

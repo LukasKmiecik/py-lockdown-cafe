@@ -42,3 +42,4 @@ class Cafe:
             )
 
         return f"Welcome to {self.name}"
+#
