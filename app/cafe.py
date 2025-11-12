@@ -1,7 +1,7 @@
 from __future__ import annotations
 import datetime
 from typing import Any, Dict
-from .errors import (
+from app.errors import (
     NotVaccinatedError,
     OutdatedVaccineError,
     NotWearingMaskError,

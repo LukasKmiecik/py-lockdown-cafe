@@ -1,7 +1,7 @@
 from __future__ import annotations
 from typing import Any, Dict, List
-from .cafe import Cafe
-from .errors import NotWearingMaskError, VaccineError
+from app.cafe import Cafe
+from app.errors import NotWearingMaskError, VaccineError
 
 
 def go_to_cafe(friends: List[Dict[str, Any]], cafe: Cafe) -> str:
